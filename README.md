@@ -1,4 +1,4 @@
-# EAFileIO - Experis Academy Task 2.
+<h1 align="center"> EAFileIO - Experis Academy Task 2.</h1>
 
 The program is a Java console application that manipulates files found in src/Files/ directory. Program logs execution time of file manipulation functions. The log file is placed in src/Logs.
 
@@ -28,6 +28,33 @@ help -- prints out all the supported commands.
 
 quit -- quits the program.
 
+<h2 align="center">Running the program</h2>
+run these commands from the root folder:
+
+```
+javac src/*.java src/utility/*.java
+cd src
+java FileIo
+```
+
+if building to out folder:
+
+```
+javac -d out src/*.java src/utility/*.java
+Copy resources to out folder
+cd out
+java FileIo
+```
+
+if building a jar:
+```
+javac -d out src/*.java src/utility/*.java
+Copy resources to out folder
+cd out
+jar cfe FileIoProgram.jar FileIo *.class utility/*.class
+java -jar FileIoProgram.jar
+```
+REMEMBER TO COPY THE RESOURCES AND LOG FOLDER TO OUT FOLDER!
 
 <h3 align="center"> Screenshot of the javac commands to compile project in out folder.</h3>
 
