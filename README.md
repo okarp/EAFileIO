@@ -56,14 +56,14 @@ java -jar FileIoProgram.jar
 ```
 REMEMBER TO COPY THE RESOURCES AND LOG FOLDER TO OUT FOLDER!
 
-<h3 align="center"> Screenshot of the javac commands to compile project in out folder.</h3>
+<h4 align="center"> Screenshot of the javac commands to compile project in out folder.</h3>
 
 ![javac](/screenshots/javac.png?raw=true "Optional Title")
 
-<h3 align="center"> Screenshot of the command to compile a jar file in out folder.</h3>
+<h4 align="center"> Screenshot of the command to compile a jar file in out folder.</h3>
 
 ![jar](/screenshots/jar.png?raw=true "Optional Title")
 
-<h3 align="center">Screenshot of the jar running.</h3>
+<h4 align="center">Screenshot of the jar running.</h3>
 
 ![run](/screenshots/runningprog.png?raw=true "Optional Title")
