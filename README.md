@@ -41,7 +41,7 @@ if building to out folder:
 
 ```
 javac -d out src/*.java src/utility/*.java
-Copy resources to out folder
+Copy resources and Logs folder to out folder
 cd out
 java FileIo
 ```
@@ -49,7 +49,7 @@ java FileIo
 if building a jar:
 ```
 javac -d out src/*.java src/utility/*.java
-Copy resources to out folder
+Copy resources and Logs folder to out folder
 cd out
 jar cfe FileIoProgram.jar FileIo *.class utility/*.class
 java -jar FileIoProgram.jar
