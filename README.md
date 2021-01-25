@@ -20,8 +20,8 @@ txt search 'word' -- searches for word in the .txt file. Replace 'word' with any
 
 txt count 'word' -- counts how many times word appears in .txt. Replace 'word' with any string you want.
 
-hashtable search 'word' -- searches if word is in textfile using hashtable. Replace 'word' with any string you want
-.
+hashtable search 'word' -- searches if word is in textfile using hashtable. Replace 'word' with any string you want.
+
 hashtable count 'word' -- prints how many times word occures in text file using hashtable. Replace 'word' with any string you want. 
 
 help -- prints out all the supported commands.
